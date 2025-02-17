@@ -31,7 +31,7 @@ const azKeyMan = new KeyMan(Const.VENDOR.AZURE, {
   clientId: '',
   clientSecret: '',
   tenantId: '',
-  vaultUri: 'https://veservekeystore.vault.azure.net',
+  vaultUri: '',
 });
 
 const azSecret = await azKeyMan.getSecretValue('key-for-azure');

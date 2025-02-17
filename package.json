@@ -1,6 +1,6 @@
 {
   "name": "outsource-my-secret",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "This library is designed to outsource your keys/secrets to AWS SecretManager, or Azure KeyVault.",
   "main": "index.js",
   "repository": "https://github.com/ajoeson/outsource-my-secret.git",

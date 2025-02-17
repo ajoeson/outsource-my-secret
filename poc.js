@@ -14,7 +14,7 @@ const { Const, KeyMan } = require('./');
     clientId: '',
     clientSecret: '',
     tenantId: '',
-    vaultUri: 'https://veservekeystore.vault.azure.net',
+    vaultUri: '',
   });
 
   const azSecret = await azKeyMan.getSecretValue('key-for-azure');
